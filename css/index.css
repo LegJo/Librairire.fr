@@ -1,0 +1,153 @@
+@import url("./mainstyle.css");
+
+#main_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#logo_ind{
+    width: auto;
+    height: 200px;
+    margin-top: 250px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+#logo_ind:hover{
+    filter: drop-shadow(0 0 5px var(--BG_1));
+    transition: 0.5s;
+}
+
+/*boutons voir tout les produit*/
+#but_allprod{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    font-size:  x-large ;
+    overflow: hidden;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+#imgProds{
+    width: 400px;
+    max-height : 250px;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#imgProds img{
+    width: 200px;
+    height: auto;
+}
+
+/*Style Du texte de bienvenue venant du site https://csswarp.eleqtriq.com/ (adapté à notre js) qui genere du texte arrondie*/
+
+#warped {
+    position: relative; display: block; width:1186.9999694824219px;
+    height:584px;
+    margin-top: -20px;
+}
+
+#warped>span:nth-of-type(n+0){
+    display:block; position:absolute;
+    transform-origin:50% 100%; 
+}
+
+#warped span{font-family:'Alegreya Sans';font-size:100px;font-weight:300;font-style:normal;
+line-height:0.6; white-space:pre; overflow:visible; padding:0px;}
+
+#w0 { transform: rotate(4.76rad); width: 52px; height: 60px; left:
+124.65px; top: 453.03px;}
+
+#w1 { transform: rotate(4.87rad); width: 26px; height: 60px; left:
+142.43px; top: 408.31px;}
+
+#w2 { transform: rotate(4.96rad); width: 47px; height: 60px; left:
+140.64px; top: 366.73px;}
+
+#w3 { transform: rotate(5.11rad); width: 68px; height: 60px; left:
+150.56px; top: 306.66px;}
+
+#w4 { transform: rotate(5.26rad); width: 55px; height: 60px; left:
+188.06px; top: 246.77px;}
+
+#w5 { transform: rotate(5.39rad); width: 47px; height: 60px; left:
+225.16px; top: 200.42px;}
+
+#w6 { transform: rotate(5.54rad); width: 68px; height: 60px; left:
+258.27px; top: 154.34px;}
+
+#w7 { transform: rotate(5.7rad); width: 62px; height: 60px; left:
+317.34px; top: 110.92px;}
+
+#w8 { transform: rotate(5.84rad); width: 47px; height: 60px; left:
+377.65px; top: 81.48px;}
+
+#w9 { transform: rotate(5.93rad); width: 17px; height: 60px; left:
+427.7px; top: 66.84px;}
+
+#w10 { transform: rotate(6.01rad); width: 46px; height: 60px;
+left: 448.9px; top: 55.42px;}
+
+#w11 { transform: rotate(6.15rad); width: 62px; height: 60px;
+left: 499.69px; top: 43.64px;}
+
+#w12 { transform: rotate(6.3rad); width: 54px; height: 60px; left:
+567.53px; top: 40.06px;}
+
+#w13 { transform: rotate(6.39rad); width: 17px; height: 60px;
+left: 627.43px; top: 42.74px;}
+
+#w14 { transform: rotate(6.47rad); width: 41px; height: 60px;
+left: 650.01px; top: 48.05px;}
+
+#w15 { transform: rotate(6.56rad); width: 26px; height: 60px;
+left: 695.89px; top: 57.34px;}
+
+#w16 { transform: rotate(6.66rad); width: 52px; height: 60px;
+left: 725.38px; top: 72.09px;}
+
+#w17 { transform: rotate(6.8rad); width: 54px; height: 60px; left:
+777.39px; top: 97.91px;}
+
+#w18 { transform: rotate(6.94rad); width: 57px; height: 60px;
+left: 826.91px; top: 132.15px;}
+
+#w19 { transform: rotate(7.05rad); width: 26px; height: 60px;
+left: 878.24px; top: 163.3px;}
+
+#w20 { transform: rotate(7.15rad); width: 54px; height: 60px;
+left: 895.51px; top: 197px;}
+
+#w21 { transform: rotate(7.26rad); width: 26px; height: 60px;
+left: 937.08px; top: 233.81px;}
+
+#w22 { transform: rotate(7.36rad); width: 54px; height: 60px;
+left: 946.62px; top: 273.3px;}
+
+#w23 { transform: rotate(7.49rad); width: 47px; height: 60px;
+left: 973.15px; top: 324.85px;}
+
+#w24 { transform: rotate(7.59rad); width: 23px; height: 60px;
+left: 997.61px; top: 363.9px;}
+
+#w25 { transform: rotate(7.68rad); width: 42px; height: 60px;
+left: 996.42px; top: 401.47px;}
+
+#w26 { transform: rotate(7.8rad); width: 54px; height: 60px; left:
+996.45px; top: 455.1px;}
+
+/*style pour le texte arrondie by nous*/
+
+#warped>span:hover{
+    filter: drop-shadow(0 0 5px var(--BG_1));
+}
+

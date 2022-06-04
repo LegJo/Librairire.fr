@@ -1,0 +1,84 @@
+@import url("./mainstyle.css");
+
+
+#main_content{
+    color: var(--BG_1);
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.box_select{
+    min-width: 182px;
+}
+
+
+
+#main_content:nth-child(1){
+    align-items: center;
+}
+
+.box_info{
+    background-color: var(--BG_3);
+    border: 1px solid rgb(47, 47, 47);
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+    text-align: center;
+    color: var(--BG_1);
+}
+
+.box_delete{
+    width: 100%;
+}
+
+#align_block{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form{
+    margin-top: 15px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+
+div[id^='div_form_']{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+div input[id^='envoi*']{
+    margin-top: 5px;
+}
+
+.box_select::-webkit-scrollbar{
+    width: 7px;
+}
+
+.box_select::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    border: solid 1px rgb(47, 47, 47);
+}
+
+#modificateur{
+    text-align: center;
+    height: 150px; 
+    width: 500px
+}
+
+.disabled{
+    pointer-events: none;
+}

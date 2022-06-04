@@ -1,0 +1,136 @@
+@import url("./mainstyle.css");
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 3%;
+    color: var(--BG_1);
+}
+
+form{
+    width: max-content;
+    margin: auto;
+    color: var(--BG_1);
+}
+
+
+
+
+/*style du Formulaire*/
+
+#formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(47, 47, 47);
+    border-radius: 2px;
+    padding: 10px 30px 10px 30px;
+    background-color:var(--BG_3);
+}
+
+#formulaire>div {
+    padding: 10px 0 10px 0;
+}
+
+#Sujet_select{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+}
+
+#Sujet {
+    font-size: 20px;
+    color: var(--BG_1);
+    margin-left: 10px;
+}
+
+.input-label{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.input-label2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-contact{
+    border: solid 1px grey;
+    background-color: var(--BG_3);
+    border-radius: 2px;
+}
+
+input::placeholder{
+    color: var(--BG_1);
+}
+
+
+/*Page de remerciement*/
+
+#Demande{
+    border: 1px solid var(--BG_1);
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 75px;
+    width: 50%;
+    min-height: 300px;
+    background-color: var(--BG_3);
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.align_case{
+    display: flex;
+    justify-content: space-around;
+}
+
+.case_recap{
+    margin-right: 0;
+    max-width: 30%;
+    overflow-x: hidden;
+}
+
+#case_recap{
+    margin-left: 25px;
+    width: 90%;
+    word-wrap: break-word;
+}
+
+#case_message{
+    width: 100%;
+    margin-left: 25px;
+    word-wrap: break-word;
+}
+
+#retour_menu{
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+/*si formulaire invalide*/
+
+
+.invalid{ /*ne sait pas si cette class n'a pas été remplacer par invalidInput, à verifier et à supprimer si c'est le cas*/
+    color: red;
+}
+
+.invalidInput{
+    border-color: rgb(254, 53, 27);
+}
+
+.errorMessage{
+    width: 210px;
+    font-size: 0.8em;
+    color: red;
+    margin: 0px;
+    padding: 0px;
+}
+
+#errorMessage-contact-message{
+    width: 500px;
+}

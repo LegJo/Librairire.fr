@@ -1,0 +1,102 @@
+@import url("./mainstyle.css");
+#main_content {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: max-content;
+    margin: auto;
+    color: var(--BG_1);
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+td {
+    width: auto;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.no_Error {
+    height: 1em;
+}
+
+#inputErrors {
+    width: 40%;
+    height: max-content;
+    background-color: red;
+}
+
+#formulaire {
+    border: 1px solid rgb(47, 47, 47);
+    border-radius: 2px;
+    padding: 10px 30px 10px 30px;
+    background-color: var(--BG_3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#formulaire>div {
+    padding: 10px 0 10px 0;
+}
+
+.bouton {
+    min-width: 100px;
+}
+
+.adresse {
+    width: 550px;
+}
+
+#formulaire .but_link {
+    margin: auto;
+}
+.input_label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#birthDate{
+    width: max-content;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea, #phoneNumber{
+    width: 85%;
+}
+
+.input_label_3col{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+#sexChoice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#postalCode{
+    width: 60%;
+}
+
+.invalidInput{
+    border-color: rgb(254, 53, 27);
+}
+
+.errorMessage{
+    width: 16em;
+    /*width: 256px;*/
+    font-size: 0.8em;
+    color: red;
+    margin: 0px;
+    padding: 0px;
+}

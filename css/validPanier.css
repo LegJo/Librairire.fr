@@ -1,0 +1,99 @@
+@import url("./mainstyle.css");
+
+/*cette page de style fait à la fois le style de valipPanier.php et celui de facture.php*/
+
+#main_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Style du formulaire d'adresse de livraison */
+
+#form-validpan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+}
+
+.input_label input{
+    width: 200px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.box_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--BG_3);
+    border: 1px solid rgb(47, 47, 47);
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--BG_3);
+    margin-bottom: 5px;
+    color: var(--BG_1);
+    width: 500px;
+    height: auto;
+}
+
+.div_input {
+    display: flex;
+    justify-content: space-around;   
+}
+
+/*style du tableau de recapitulatif de panier/facture*/
+table{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+table, td {
+    border: 1px solid rgb(47, 47, 47);
+    border-collapse: collapse;
+    padding: 5px;
+    height: max-content;
+    margin-left: 5px;
+}
+tbody {
+    background-color: var(--BG_3);
+    color: var(--BG_1);
+}
+thead, tfoot {
+    background-color: var(--BG_1);
+    color: var(--BG_3);
+}
+
+#address {
+    width: 350px;
+}
+
+/*style des erreur de formulaire*/ 
+.invalidInput{
+    border-color: rgb(254, 53, 27);
+    border-width: 2px;
+}
+
+.errorMessage{
+    width: 16em;
+    font-size: 0.8em;
+    color: red;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 2px;
+}
+
+#but_botfact{
+    margin-bottom: 10px;
+}

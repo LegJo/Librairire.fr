@@ -1,0 +1,241 @@
+@import url("./mainstyle.css");
+
+#main_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: max-content;
+}
+
+form {
+    width: max-content;
+    margin: auto;
+    color: var(--BG_1);
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    font-weight: bold;
+    margin: inherit;
+    margin-bottom: 5px;
+    min-width: max-content;
+    height: max-content;
+    min-height: 32px;
+    color: rgb(47, 47, 47);
+}
+
+/*
+.input_label{
+    display: flex;
+    flex-direction: row;
+}
+*/
+
+/*Profils*/
+
+td {
+    width: auto;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#formprofil {
+    border: 1px solid rgb(47, 47, 47);
+    border-radius: 2px;
+    padding: 10px 30px 10px 30px;
+    background-color: var(--BG_3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#formprofil>div {
+    padding: 10px 0 10px 0;
+}
+
+.bouton {
+    min-width: 100px;
+}
+
+.adresse {
+    width: 500px;
+}
+
+#formprofil .but_link {
+    margin: auto;
+}
+
+#returnBtn{
+    display: none;
+}
+
+#submitProfile{
+    display: none;
+    min-width: 266px;
+    min-height: 32px;
+    box-sizing: inherit;
+    padding: 0;
+}
+
+input:disabled, textarea:disabled{
+    background-color: var(--BG_3);
+    color: black;
+    border: dashed 1px rgb(47, 47, 47);
+    border-radius: 4px;
+}
+
+input, textarea{
+    box-sizing: border-box;
+    text-align:center;
+    padding: 3px;
+}
+
+#formprofil p{
+    text-align:center;
+    justify-content: center;
+}
+
+.input_label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#birthDate{
+    width: max-content;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea, #phoneNumber{
+    width: 85%;
+}
+
+#sexChoice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#postalCode{
+    width: 50%;
+}
+
+.no_Error {
+    height: 1em;
+}
+
+#inputErrors {
+    width: 40%;
+    height: max-content;
+    background-color: red;
+}
+
+.invalidInput{
+    border-color: rgb(254, 53, 27);
+}
+
+.errorMessage{
+    font-size: 0.8em;
+    color: red;
+    margin: 0px;
+    padding: 0px;
+}
+
+#divConfirmationMail{
+    display: none;
+}
+
+
+/*Historique de Commande*/
+
+#purchaseHistory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.historyCommande{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: max-content;
+    max-width: 50%;
+    align-items: center;
+    border: solid 1px rgb(47, 47, 47);
+    border-radius: 4px;
+    background-color: var(--BG_3);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#purchaseHistory .product_poppan{
+    width: max-content;
+    margin: 5px;
+}
+
+.command{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.command .product_poppan{
+    background-color: rgb(255,255,255);
+    border: solid 1px var(--BG_1);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#but_removeHist{
+    text-align: center;
+    padding: 3px;
+}
+
+
+/* popup lors de la suppression */
+
+#pop_delProfile {
+    position: fixed;
+    top: 40%;
+    left: 35%;
+    padding: 10px;
+    flex-direction:row;
+    align-items: center;
+    text-align: center;
+    z-index: 9;
+    width: 500px;
+    height: auto;
+    border: solid 2px;
+    border-radius: 5px;
+    background-color: var(--BG_3);
+    filter: inherit;
+}
+
+#pop_delProfileContent{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pop_delProfile .but_close{
+    align-self: flex-start;
+}
+
+.disabled{
+    pointer-events: none;
+    cursor: default;
+}
+

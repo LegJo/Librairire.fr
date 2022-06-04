@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<produits>
+  <produit>
+    <code_prod>P01</code_prod>
+    <Titre>Action Comics</Titre>
+    <code_cat>c00</code_cat>
+    <description>numero 1 de Action Comics</description>
+    <auteur>Jerry Siegel et Joe Shuster</auteur>
+    <synopsis>Metropolis, il y a 5 ans. Clark Kent n'est en ville que depuis quelques mois, c'est un journaliste admiré de tous, autant pour la qualité de sa plume, que pour l'intégrité sans faille dont il fait preuve pour défendre les plus démunis. Et cette action, il ne l'exerce pas seulement les lunettes sur le nez, derrière son ordi, en alimentant son blog d'investigation, il est devenu, progressivement, le justicier aux super pouvoirs qui se fait appeler Superman.</synopsis>
+    <langue>Anglais</langue>
+    <ISBN>1563893355</ISBN>
+    <editeur>DC Comics</editeur>
+    <pic_name>action_comics.jpg</pic_name>
+    <quantite>3</quantite>
+    <prix>999.99</prix>
+  </produit>
+  <produit>
+    <code_prod>P02</code_prod>
+    <Titre>Asterix le Gaulois</Titre>
+    <code_cat>c00</code_cat>
+    <description>tome 1 de Asterix le Gaulois</description>
+    <auteur>Albert Uderzo et René Goscinny</auteur>
+    <synopsis>La toute première histoire d'Astérix, pour faire connaissance avec la troupe des irréductibles Gaulois.</synopsis>
+    <langue>Français</langue>
+    <ISBN>201210133X</ISBN>
+    <editeur>HACHETTE ASTERIX</editeur>
+    <pic_name>Asterix_le_Gaulois.jpg</pic_name>
+    <quantite>46</quantite>
+    <prix>7.50</prix>
+  </produit>
+  <produit>
+    <code_prod>P03</code_prod>
+    <Titre>Gaston Lagaffe</Titre>
+    <code_cat>c00</code_cat>
+    <description>tome 1 de Gaston Lagaffe</description>
+    <auteur>André Franquin</auteur>
+    <synopsis>Présente-t-on Gaston Lagaffe ? Ce personnage rêveur et inventif, aux trouvailles aussi inattendues que catastrophiques, est l'un des plus fameux de toute la bande dessinée. Qu'il se mêle d'améliorer la vie de bureau, de s'occuper d'un chat ou d'une mouette, d'inventer des instruments de musique ou de perfectionner sa voiture, Gaston déclenche immanquablement explosions, incendies et désastres, pour la plus grande joie de lecteurs écroulés de rire.</synopsis>
+    <langue>Français</langue>
+    <ISBN>2800111542</ISBN>
+    <editeur>Dupuis</editeur>
+    <pic_name>Gaston_Lagaffe.jpg</pic_name>
+    <quantite>91</quantite>
+    <prix>6.50</prix>
+  </produit>
+  <produit>
+    <code_prod>P04</code_prod>
+    <Titre>Leonard</Titre>
+    <code_cat>c00</code_cat>
+    <description>tome 1 de Leonard</description>
+    <auteur>Bob De Groot</auteur>
+    <synopsis>Léonard est un génie. C'est du moins ce qu'il croit ! Caricature désopilante de l'illustre Léonard de Vinci, bien connu pour ses portraits de dames au sourire énigmatique, il invente les machines les plus incongrues et il les expérimente sur son fidèle Disciple. Celui-ci, qui n'aspire qu'à une vie paisible, s'en retrouve immanquablement couvert de plaies et de bosses.</synopsis>
+    <langue>Français</langue>
+    <ISBN>2803616998</ISBN>
+    <editeur>Le Lombard</editeur>
+    <pic_name>Leonard.jpg</pic_name>
+    <quantite>45</quantite>
+    <prix>7.20</prix>
+  </produit>
+  <produit>
+    <code_prod>P05</code_prod>
+    <Titre>Les Schtroumpfs</Titre>
+    <code_cat>c00</code_cat>
+    <description>tome 1 de Les Schtroumpfs</description>
+    <auteur>Peyo et Yvan Delporte</auteur>
+    <synopsis>Qui ne connaît les Schtroumpfs ? Ces gentils lutins bleus à gros bonnet blanc se ressemblent tous, même s'ils ont chacun leur caractère, et parlent une curieuse langue dans laquelle la plupart des mots sont remplacés par schtroumpf ou schtroumpfer. Sous l'autorité débonnaire du grand Schtroumpf, ce sympathique petit peuple organise sa vie et lutte contre l'abominable sorcier Gargamel, qui ne rêve que de les détruire.</synopsis>
+    <langue>Français</langue>
+    <ISBN>2800101083</ISBN>
+    <editeur>Dupuis</editeur>
+    <pic_name>Les_Schtroumpfs.jpg</pic_name>
+    <quantite>82</quantite>
+    <prix>6.90</prix>
+  </produit>
+  <produit>
+    <code_prod>P06</code_prod>
+    <Titre>Lucky Luke</Titre>
+    <code_cat>c00</code_cat>
+    <description>tome 1 de Lucky Luke</description>
+    <auteur>Morris</auteur>
+    <synopsis>Ce personnage immortel parcourt depuis 1947 (44 ans !) l'histoire de l'ouest américain. Il y a rencontré des personnages célèbres (Jesse James, Calamity Jane, Billy the Kid, Sarah Bernhardt...). Lucky Luke est l'homme des missions impossibles, le défenseur des pauvres, des veuves et des orphelins, bref le parfait héros ! Son cheval, Jolly Jumper, est un parfait compagnon de ce poor lonesome cowboy. Les frères Dalton se dressent perpétuellement sur le chemin de Lucky Luke ce qui permet à ce dernier de les poursuivre...</synopsis>
+    <langue>Français</langue>
+    <ISBN>280011441X</ISBN>
+    <editeur>Dupuis</editeur>
+    <pic_name>Lucky_Luke.jpg</pic_name>
+    <quantite>67</quantite>
+    <prix>7.90</prix>
+  </produit>
+  <produit>
+    <code_prod>P07</code_prod>
+    <Titre>Marvel Comics</Titre>
+    <code_cat>c00</code_cat>
+    <description>numero 1 de Marvel Comics</description>
+    <auteur>Marvel</auteur>
+    <synopsis>Le professeur Horton tient une conférence de presse, prêt à révéler sa création au monde - le premier androïde. Il révèle que sa découverte pose un problème difficile. Conduisant la presse dans le laboratoire, Horton montre un homme dans une cage de verre hermétique qu'il appelle la Torche humaine. La presse présente dans la salle lui demande de détruire sa création avant qu'un fou ne s'empare de ses principes et ne la lance contre notre civilisation. Horton refuse. Plus tard, il est contacté et visité par la Guilde des scientifiques. Ils recommandent également la destruction de l'androïde car les flammes ne peuvent être contrôlées.</synopsis>
+    <langue>Anglais</langue>
+    <ISBN>1039103497</ISBN>
+    <editeur>Panini</editeur>
+    <pic_name>marvel_comics.jpg</pic_name>
+    <quantite>70</quantite>
+    <prix>599.99</prix>
+  </produit>
+  <produit>
+    <code_prod>P08</code_prod>
+    <Titre>Spirou et Fantasio</Titre>
+    <code_cat>c00</code_cat>
+    <description>tome 1 de Spirou et Fantasio</description>
+    <auteur>Franquin</auteur>
+    <synopsis>Spirou et Fantasio se retrouvent tour à tour sur un ring de boxe, sur le dos d'un cheval, à faire la chasse au robot et de la médiation de conflit entre deux tribus hostiles.</synopsis>
+    <langue>Français</langue>
+    <ISBN>2800100036</ISBN>
+    <editeur>Dupuis</editeur>
+    <pic_name>Spirou_et_Fantasio.jpg</pic_name>
+    <quantite>62</quantite>
+    <prix>7.50</prix>
+  </produit>
+  <produit>
+    <code_prod>P09</code_prod>
+    <Titre>Tintin</Titre>
+    <code_cat>c00</code_cat>
+    <description>tome 1 de Tintin</description>
+    <auteur>Herge</auteur>
+    <synopsis>Les tintinophiles parlent du Soviets, la première aventure de Tintin, comme les anthropologues parlent de Lucy : avec tendresse, avec passion. Etait-elle séduisante ? A l'époque, sans doute, mais aujourd'hui, après tant d'années ? Qu'importe, cette aventure est celle de la naissance de Tintin : elle n'est rien qu'en cela inestimable.</synopsis>
+    <langue>Français</langue>
+    <ISBN>2203003030</ISBN>
+    <editeur>Casterman</editeur>
+    <pic_name>Tintin.jpg</pic_name>
+    <quantite>57</quantite>
+    <prix>6.80</prix>
+  </produit>
+  <produit>
+    <code_prod>P10</code_prod>
+    <Titre>Walking Dead</Titre>
+    <code_cat>c00</code_cat>
+    <description>tome 1 de Walking Dead</description>
+    <auteur>Robert Kirkman, Charlie Adlard et Tony Moore</auteur>
+    <synopsis>Rick Grimes est policier et sort du coma pour découvrir avec horreur un monde où les morts ne meurent plus, mais errent à la recherche des derniers humains pour s'en repaître. Il n'a alors plus qu'une idée en tête?: retrouver sa femme et son fils, en espérant qu'ils soient rescapés de ce monde devenu fou. Un monde où plus rien ne sera jamais comme avant, et où une seule règle prévaut?: survivre à tout prix.</synopsis>
+    <langue>Français</langue>
+    <ISBN>2756009121</ISBN>
+    <editeur>Delcourt</editeur>
+    <pic_name>Walking_Dead.jpg</pic_name>
+    <quantite>67</quantite>
+    <prix>7.40</prix>
+  </produit>
+  <produit>
+    <code_prod>P11</code_prod>
+    <Titre>Death Note</Titre>
+    <code_cat>c01</code_cat>
+    <description>tome 1 de Death Note</description>
+    <auteur>Tsugumi Ohba</auteur>
+    <synopsis>Light Yagami ramasse un étrange carnet oublié dans la cour de son lycée. Selon les instructions du carnet, la personne dont le nom est écrit dans les pages du Death Note mourra dans les 40 secondes !! Quelques jours plus tard, Light fait la connaissance de l'ancien propriétaire du carnet : Ryûk, un dieu de la mort ! Poussé par l'ennui, il a fait entrer le carnet sur terre. Ryûk découvre alors que Light a déjà commencé à remplir son carnet...</synopsis>
+    <langue>Français</langue>
+    <ISBN>2505000328</ISBN>
+    <editeur>KANA</editeur>
+    <pic_name>Death_Note.jpg</pic_name>
+    <quantite>49</quantite>
+    <prix>5.50</prix>
+  </produit>
+  <produit>
+    <code_prod>P12</code_prod>
+    <Titre>Detective Conan</Titre>
+    <code_cat>c01</code_cat>
+    <description>tome 1 de Detective Conan</description>
+    <auteur>Gosho Aoyama</auteur>
+    <synopsis>Le détective lycéen Shinichi Kudo est contraint de prendre un pseudonyme, Conan Edogawa (combinaison de Conan Doyle et Edogawa Rampo, créateur du roman policier japonais), pour pousuivre son enquête sur les membres d'une mystérieuse organisation.</synopsis>
+    <langue>Français</langue>
+    <ISBN>2871291284</ISBN>
+    <editeur>KANA</editeur>
+    <pic_name>Detective_Conan.jpg</pic_name>
+    <quantite>50</quantite>
+    <prix>5.50</prix>
+  </produit>
+  <produit>
+    <code_prod>P13</code_prod>
+    <Titre>Dragon Ball</Titre>
+    <code_cat>c01</code_cat>
+    <description>tome 1 de Dragon Ball</description>
+    <auteur>Akira Toriyama</auteur>
+    <synopsis>Les dragon balls sont des boules de cristal magiques. Celui qui les réunit invoque un dragon qui réalisera ses voeux. Sangoku, Dendé, Végéta et tous les protagonistes de cette grande saga tentent de trouver les sept dragon balls qui, une fois le voeu exaucé, s'éparpilleront à nouveau dans l'univers</synopsis>
+    <langue>Français</langue>
+    <ISBN>2723457893</ISBN>
+    <editeur>Glénat Manga</editeur>
+    <pic_name>Dragon_Ball.jpg</pic_name>
+    <quantite>70</quantite>
+    <prix>6.50</prix>
+  </produit>
+  <produit>
+    <code_prod>P14</code_prod>
+    <Titre>Fullmetal Alchemist</Titre>
+    <code_cat>c01</code_cat>
+    <description>tome 1 de Fullmetal Alchemist</description>
+    <auteur>Hiromu Arakawa</auteur>
+    <synopsis>En voulant ressusciter leur mère, Edward et Alphonse Elric utilisent une technique alchimique interdite : la transmutation humaine. Seulement, l'expérience tourne mal : Edward perd un bras et une jambe et Alphonse, son corps, son esprit se retrouvant prisonnier d'une armure. Devenu un alchimiste d'État, Edward, surnommé le Fullmetal Alchemist, se lance, avec l'aide de son frère, à la recherche de la pierre philosophale, seule chance de retrouver leurs corps. Les deux frères commencent à enquêter sur un homme étrange,  le fondateur , qui passe pour un faiseur de miracles...</synopsis>
+    <langue>Français</langue>
+    <ISBN>2351420179</ISBN>
+    <editeur>Kurokawa</editeur>
+    <pic_name>Fullmetal_Alchemist.jpg</pic_name>
+    <quantite>71</quantite>
+    <prix>5.60</prix>
+  </produit>
+  <produit>
+    <code_prod>P15</code_prod>
+    <Titre>Jojo's bizarre adventure</Titre>
+    <code_cat>c01</code_cat>
+    <description>tome 1 de Jojo's bizarre adventure</description>
+    <auteur>Hirohiko Araki</auteur>
+    <synopsis>À la fin du XIXe siècle, en Angleterre, lord Joestar voit arriver dans sa maison le jeune Dio Brando, le fils d'un homme qui lui a sauvé la vie. Reconnaissant, il décide de l'adopter mais le jeune homme s'avère particulièrement ambitieux et prêt à tout pour s'emparer de la fortune familiale. Dio semble même prêt à prendre la place du fils de lord Joestar.</synopsis>
+    <langue>Français</langue>
+    <ISBN>2290061247</ISBN>
+    <editeur>J'ai lu</editeur>
+    <pic_name>Jojo_s_bizarre_adventure.jpg</pic_name>
+    <quantite>70</quantite>
+    <prix>6.50</prix>
+  </produit>
+  <produit>
+    <code_prod>P16</code_prod>
+    <Titre>L'attaque des Titans</Titre>
+    <code_cat>c01</code_cat>
+    <description>tome 1 de L'attaque des Titans</description>
+    <auteur>Hajime Isayama</auteur>
+    <synopsis>Le monde appartient désormais aux Titans, des êtres gigantesques qui ont presque décimé l’Humanité. Voilà une centaine d’années, les derniers rescapés ont bâti une place forte, une cité cernée d’une haute muraille au sein de laquelle vivent aujourd’hui leurs descendants. Parqués, ignorants tout du monde extérieur, ils s’estiment au moins à l’abri de ces effroyables êtres qui ne feraient d’eux qu’une bouchée. Hélas, cette illusion de sécurité vole en éclats le jour où surgit un Titan démesuré, encore bien plus colossal que tous les autres. S’engage alors un combat désespéré pour la survie du genre humain...</synopsis>
+    <langue>Français</langue>
+    <ISBN>281161169X</ISBN>
+    <editeur>Pika</editeur>
+    <pic_name>L_attaque_des_Titans.jpg</pic_name>
+    <quantite>70</quantite>
+    <prix>6.50</prix>
+  </produit>
+  <produit>
+    <code_prod>P17</code_prod>
+    <Titre>Le voyage de Chihiro</Titre>
+    <code_cat>c01</code_cat>
+    <description>anime comics de Le voyage de Chihiro</description>
+    <auteur>Hayao Miyazaki</auteur>
+    <synopsis>Alors que la petite Chihiro déménage à contrecœur à la campagne, la voiture familiale s’arrête près d’un étrange tunnel. Dans la ville déserte qui se trouve derrière, Chihiro découvre horrifiée que ses parents ont été transformés… en cochons ! Pire, le monde dans lequel elle s’est égarée est peuplé de spectres et d’esprits ! Pour sauver ses parents et rester en vie, Chihiro va devoir travailler dans d’étranges thermes réservés aux fantômes…</synopsis>
+    <langue>Français</langue>
+    <ISBN>2344029583</ISBN>
+    <editeur>Glénat</editeur>
+    <pic_name>Le_voyage_de_Chihiro.jpg</pic_name>
+    <quantite>70</quantite>
+    <prix>4.50</prix>
+  </produit>
+  <produit>
+    <code_prod>P18</code_prod>
+    <Titre>My Hero Academia</Titre>
+    <code_cat>c01</code_cat>
+    <description>tome 1 de My Hero Academia</description>
+    <auteur>Kohei Horikoshi</auteur>
+    <synopsis>La nouvelle génération de super-héros du Shonen Jump débarque enfin !Dans un monde où 80 % de la population possède un super-pouvoir appelé alter, les héros font partie de la vie quotidienne. Et les super-vilains aussi ! Face à eux se dresse l'invincible All Might, le plus puissant des héros ! Le jeune Izuku Midoriya en est un fan absolu. Il n'a qu'un rêve : entrer à la Hero Academia pour suivre les traces de son idole. Le problème, c'est qu'il fait partie des 20 % qui n'ont aucun pouvoir... Son destin est bouleversé le jour où sa route croise celle d'All Might en personne ! Ce dernier lui offre une chance inespérée de voir son rêve se réaliser. Pour Izuku, le parcours du combattant ne fait que commencer !</synopsis>
+    <langue>Français</langue>
+    <ISBN>2355929483</ISBN>
+    <editeur>Ki-oon</editeur>
+    <pic_name>My_Hero_Academia.jpg</pic_name>
+    <quantite>70</quantite>
+    <prix>6.50</prix>
+  </produit>
+  <produit>
+    <code_prod>P19</code_prod>
+    <Titre>Naruto</Titre>
+    <code_cat>c01</code_cat>
+    <description>tome 1 de Naruto</description>
+    <auteur>Masashi Kishimoto</auteur>
+    <synopsis>Dans le village de Konoha sévit Naruto, le pire garnement de l'école des ninjas ! Son passe-temps favori ? Faire les quatre cents coups ! Mais Naruto a aussi un rêve démesuré : devenir le plus puissant ninja de son village. Seulement voilà, un grand mystère plane autour de ce garçon... Un jour, je deviendrai Hokage, moi aussi !</synopsis>
+    <langue>Français</langue>
+    <ISBN>2505114749</ISBN>
+    <editeur>KANA</editeur>
+    <pic_name>Naruto.jpg</pic_name>
+    <quantite>67</quantite>
+    <prix>6.50</prix>
+  </produit>
+  <produit>
+    <code_prod>P20</code_prod>
+    <Titre>One Piece</Titre>
+    <code_cat>c01</code_cat>
+    <description>tome 1 de One Piece</description>
+    <auteur>Eiichiro Oda</auteur>
+    <synopsis>Nous sommes à l'ère des pirates. Luffy, un garçon espiègle, rêve de devenir le roi des pirates en trouvant le “One Piece”, un fabuleux trésor. Seulement, Luffy a avalé un fruit du démon qui l'a transformé en homme élastique. Depuis, il est capable de contorsionner son corps dans tous les sens, mais il a perdu la faculté de nager. Avec l'aide de ses précieux amis, il va devoir affronter de redoutables pirates dans des aventures toujours plus rocambolesques. Également adapté en dessin animé pour la télévision et le cinéma, One Piece remporte un formidable succès à travers le monde. Les aventures de Luffy au chapeau de paille ont désormais gagné tous les lecteurs, qui se passionnent chaque trimestre pour les aventures exceptionnelles de leurs héros.</synopsis>
+    <langue>Français</langue>
+    <ISBN>2723488527</ISBN>
+    <editeur>Glénat Manga</editeur>
+    <pic_name>One_Piece.jpg</pic_name>
+    <quantite>70</quantite>
+    <prix>6.50</prix>
+  </produit>
+  <produit>
+    <code_prod>P21</code_prod>
+    <Titre>A Study in Scarlet</Titre>
+    <code_cat>c02</code_cat>
+    <description>A Study in Scarlet</description>
+    <auteur>Arthur Conan-Doyle</auteur>
+    <synopsis>Découvrez les premières aventures de Sherlock Holmes dans ce recueil de nouvelles qui met en scène pour la première fois le célèbre détective et son acolyte John Watson.</synopsis>
+    <langue>Français</langue>
+    <ISBN>2818708249</ISBN>
+    <editeur>Harrap's</editeur>
+    <pic_name>A_Study_in_Scarlet.jpg</pic_name>
+    <quantite>50</quantite>
+    <prix>3.90</prix>
+  </produit>
+  <produit>
+    <code_prod>P22</code_prod>
+    <Titre>Game of Thrones</Titre>
+    <code_cat>c02</code_cat>
+    <description>tome 1 de Game of Thrones</description>
+    <auteur>George R.R. Martin</auteur>
+    <synopsis>Après avoir tué le monarque dément Aerys II Targaryen, Robert Baratheon est devenu le nouveau souverain du royaume des Sept Couronnes. Tandis qu'en son domaine de Winterfell, son fidèle ami le duc Eddard Stark rend paisiblement la justice. Mais un jour, le roi Robert lui rend visite, porteur de sombres nouvelles : le trône est en péril. Stark, qui s'est toujours tenu éloigné des affaires du pouvoir, doit alors abandonner les terres du Nord pour rejoindre la cour et ses intrigues. L'heure est grave, d'autant qu'au-delà du mur qui protège le royaume depuis des siècles, d'étranges créatures rôdent...</synopsis>
+    <langue>Français</langue>
+    <ISBN>2290208876</ISBN>
+    <editeur>J'ai Lu</editeur>
+    <pic_name>Game_of_Thrones.jpg</pic_name>
+    <quantite>46</quantite>
+    <prix>8.50</prix>
+  </produit>
+  <produit>
+    <code_prod>P23</code_prod>
+    <Titre>Harry Potter</Titre>
+    <code_cat>c02</code_cat>
+    <description>tome 1 de Harry Potter</description>
+    <auteur>Joanne K. Rowling</auteur>
+    <synopsis>Le jour de ses onze ans, Harry Potter, un orphelin élevé par un oncle et une tante qui le détestent, voit son existence bouleversée. Un géant vient le chercher pour l'emmener au collège Poudlard, école de sorcellerie, où une place l'attend depuis toujours. Qui est donc Harry Potter? Et qui est l'effroyable V..., le mage dont personne n'ose prononcer le nom ?Harry Potter à l'école des sorciers a obtenu le prix Sorcières du roman 1999.Harry Potter vous ensorcelle dès les premiers paragraphes et vous procure un sentiment...</synopsis>
+    <langue>Français</langue>
+    <ISBN>2070518426</ISBN>
+    <editeur>Gallimard jeunesse</editeur>
+    <pic_name>Harry_Potter.jpg</pic_name>
+    <quantite>55</quantite>
+    <prix>6.39</prix>
+  </produit>
+  <produit>
+    <code_prod>P24</code_prod>
+    <Titre>Hunger Games</Titre>
+    <code_cat>c02</code_cat>
+    <description>tome 1 de Hunger Games</description>
+    <auteur>Suzanne Collins</auteur>
+    <synopsis>Peeta et Katniss sont tirés au sort pour participer aux Hunger Games. La règle est simple : 24 candidats pour un seul survivant, le tout sous le feu des caméras... Dans un futur sombre, sur les ruines des États-Unis, un jeu télévisé est créé pour contrôler le peuple par la terreur. Douze garçons et douze filles tirés au sort participent à cette sinistre téléréalité, que tout le monde est forcé de regarder en direct. Une seule règle dans l'arène : survivre, à tout prix. Quand sa petite sœur est appelée pour participer aux Hunger Games, Katniss n'hésite pas une seconde. Elle prend sa place, consciente du danger. À seize ans, Katniss a déjà été confrontée plusieurs fois à la mort. Chez elle, survivre est comme une seconde nature...</synopsis>
+    <langue>Français</langue>
+    <ISBN>2266260774</ISBN>
+    <editeur>Pocket Jeunesse</editeur>
+    <pic_name>Hunger_Games.jpg</pic_name>
+    <quantite>70</quantite>
+    <prix>6.50</prix>
+  </produit>
+  <produit>
+    <code_prod>P25</code_prod>
+    <Titre>La mysterieuse affaire de Styles</Titre>
+    <code_cat>c02</code_cat>
+    <description>La mysterieuse affaire de Styles</description>
+    <auteur>Agatha Christie</auteur>
+    <synopsis>Pendant la Première Guerre mondiale, Arthur Hastings, rapatrié en Angleterre, est invité dans la demeure de Styles Court (ou Styles en version abrégée) par son ami John Cavendish, qui lui apprend que sa mère Emily s'est remariée avec un homme beaucoup plus jeune, le mystérieux Alfred Inglethorp.</synopsis>
+    <langue>Français</langue>
+    <ISBN>195034701X</ISBN>
+    <editeur>John Lane</editeur>
+    <pic_name>La_mysterieuse_affaire_de_Styles.jpg</pic_name>
+    <quantite>70</quantite>
+    <prix>5.50</prix>
+  </produit>
+  <produit>
+    <code_prod>P26</code_prod>
+    <Titre>Le Seigneur des Anneaux</Titre>
+    <code_cat>c02</code_cat>
+    <description>tome 1 de Le Seigneur des Anneaux</description>
+    <auteur>J.R.R.Tolkien</auteur>
+    <synopsis>L'Anneau de Pouvoir, forgé par Sauron au cœur de la Montagne du Feu, dépositaire de son sombre pouvoir, est perdu. Nul ne sait ce qu'il est devenu depuis qu'un homme l'a arraché de la main du Seigneur Sombre et, ainsi, put chasser ce dernier hors du monde. Mais de noirs présages s'étendent à nouveau sur la Terre du Milieu, les créatures maléfiques se multiplient et, dans les Montagnes de Brume, les Orques traquent les Nains. L'ennemi veut récupérer son bien, son Maître le cherche partout et l'œil de Sauron est désormais pointé sur le Comté. Heureusement Gandalf le Gris les a devancés, s'ils font vite, lui et le petit Frodo parviendront peut-être à détruire l'Anneau à temps...</synopsis>
+    <langue>Français</langue>
+    <ISBN>2266282360</ISBN>
+    <editeur>POCKET</editeur>
+    <pic_name>Le_Seigneur_des_Anneaux.jpg</pic_name>
+    <quantite>65</quantite>
+    <prix>8.50</prix>
+  </produit>
+</produits>

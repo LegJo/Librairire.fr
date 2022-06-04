@@ -1,0 +1,25 @@
+@import url("./mainstyle.css");
+form {
+    width: max-content;
+    margin: auto;
+    color: var(--BG_1);
+}
+
+#Formulaire {
+    border: 1px solid rgb(47, 47, 47);
+    border-radius: 2px;
+    padding: 10px 30px 10px 30px;
+    background-color: var(--BG_3);
+}
+
+#Formulaire>div {
+    padding: 10px 0 10px 0;
+}
+
+.errorMessage{
+    width: 16em;
+    font-size: 0.8em;
+    color: red;
+    margin: 0px;
+    padding: 0px;
+}

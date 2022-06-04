@@ -1,0 +1,211 @@
+[
+    {
+        "userCode": "u0000001",
+        "name": "Velay",
+        "firstName": "Lucas",
+        "sex": "Man",
+        "birthDate": "2003-01-23",
+        "mail": "velaylucas@cy-tech.fr",
+        "password": "$2y$10$3vDKi2Dwb3ySvC9npmgYHeI\/PVrLajgmqQ99K50Gltkv66e8ds9zK",
+        "fullAddress": {
+            "address": "A323, 22 boulevard de l'Oise",
+            "postalCode": "95000",
+            "city": "Cergy"
+        },
+        "phoneNumber": "0612345678",
+        "job": "Etudiant",
+        "panier": [],
+        "purchaseHistory": {
+            "Commande1": {
+                "purchaseDate": "2022-05-23 14:07:28",
+                "panier": {
+                    "P08": 2
+                }
+            },
+            "Commande2": {
+                "purchaseDate": "2022-05-23 14:12:05",
+                "panier": {
+                    "P05": 2
+                }
+            },
+            "Commande3": {
+                "purchaseDate": "2022-05-23 14:13:45",
+                "panier": {
+                    "P09": 3
+                }
+            },
+            "Commande4": {
+                "purchaseDate": "2022-06-01 08:44:58",
+                "panier": {
+                    "P02": 4
+                }
+            },
+            "Commande5": {
+                "purchaseDate": "2022-06-01 09:45:23",
+                "panier": {
+                    "P03": 1,
+                    "P22": 1
+                }
+            }
+        }
+    },
+    {
+        "userCode": "u0000002",
+        "name": "Legrand",
+        "firstName": "Joan",
+        "sex": "Man",
+        "birthDate": "2002-05-26",
+        "mail": "joan.legrand8@gmail.com",
+        "password": "$2y$10$A7KSCdcDBTh1Ds6UKUspB.d9LAN45U9DR.NJnJ1yqr2NCqIr1pCR2",
+        "fullAddress": {
+            "address": "128 avenue Gabriel Peri",
+            "postalCode": "95200",
+            "city": "Sarcelles"
+        },
+        "phoneNumber": "0781866434",
+        "job": "Etudiant",
+        "panier": [],
+        "purchaseHistory": {
+            "Commande1": {
+                "purchaseDate": "2022-05-26 16:09:14",
+                "panier": {
+                    "P04": 12,
+                    "P03": 83
+                }
+            },
+            "Commande2": {
+                "purchaseDate": "2022-05-26 23:17:27",
+                "panier": {
+                    "P02": 2
+                }
+            },
+            "Commande3": {
+                "purchaseDate": "2022-05-26 23:18:47",
+                "panier": {
+                    "P03": 5
+                }
+            },
+            "Commande4": {
+                "purchaseDate": "2022-05-26 23:19:59",
+                "panier": {
+                    "P03": 2
+                }
+            },
+            "Commande5": {
+                "purchaseDate": "2022-05-26 23:20:08",
+                "panier": {
+                    "P03": 2
+                }
+            },
+            "Commande6": {
+                "purchaseDate": "2022-05-29 12:53:51",
+                "panier": {
+                    "P08": 14,
+                    "P26": 5
+                }
+            },
+            "Commande7": {
+                "purchaseDate": "2022-05-29 12:56:10",
+                "panier": {
+                    "P04": 2,
+                    "P02": 4,
+                    "P01": 211,
+                    "P08": 3,
+                    "P22": 2
+                }
+            }
+        }
+    },
+    {
+        "userCode": "u0000003",
+        "name": "Babikian",
+        "firstName": "Mathieu",
+        "sex": "Man",
+        "birthDate": "2002-04-15",
+        "mail": "babikianma@cy-tech.fr",
+        "password": "$2y$10$6mqdiAE\/4zfSxlE6e8MXYuRknMIooyVxqecajGK\/0ZmNC9dlIvUu2",
+        "fullAddress": {
+            "address": "271 rue du Docteur Rosenfeld",
+            "postalCode": "95120",
+            "city": "Ermont"
+        },
+        "phoneNumber": "0700000000",
+        "job": "Etudiant",
+        "panier": [],
+        "purchaseHistory": []
+    },
+    {
+        "userCode": "u0000004",
+        "name": "Gautier",
+        "firstName": "Jordan",
+        "sex": "Man",
+        "birthDate": "2002-09-21",
+        "mail": "gautierjor@cy-tech.fr",
+        "password": "$2y$10$BETAF7Hf9ovEvLwTAkZKNeQ2quK4VIWYOLu116DWa4SQtHIQrFqp6",
+        "fullAddress": {
+            "address": "1 rue des Trembleaux",
+            "postalCode": "78500",
+            "city": "Sartrouville"
+        },
+        "phoneNumber": "0721212121",
+        "job": "Patissier",
+        "panier": {
+            "P08": 32
+        },
+        "purchaseHistory": []
+    },
+    {
+        "userCode": "u0000005",
+        "name": "Bouhrara",
+        "firstName": "Adam",
+        "sex": "Man",
+        "birthDate": "2002-01-06",
+        "mail": "bouhraraad@cy-tech.fr",
+        "password": "$2y$10$rPDJaLOqPEKbStXr1dFWs.MytylJSxp0LZQvGjVp6GjZLGj82jdC2",
+        "fullAddress": {
+            "address": "69 Rue des Paquerettes",
+            "postalCode": "95300",
+            "city": "Pontoise"
+        },
+        "phoneNumber": "0715151515",
+        "job": "Basketteur Pro",
+        "panier": [],
+        "purchaseHistory": []
+    },
+    {
+        "userCode": "u0000006",
+        "name": "Verin ",
+        "firstName": "Renaud",
+        "sex": "Man",
+        "birthDate": "1998-01-01",
+        "mail": "M.VerinAdmin@gmail.com",
+        "password": "$2y$10$FcGXxF47Kv4jNOn7FOBxIOroca3m.\/RNTNm4mlxznGdIt1uD61hcm",
+        "fullAddress": {
+            "address": "1012 Rue des Coquelicots",
+            "postalCode": "95000",
+            "city": "Pontoise"
+        },
+        "phoneNumber": "0606060606",
+        "job": "Enseignant",
+        "panier": [],
+        "purchaseHistory": []
+    },
+    {
+        "userCode": "u1000007",
+        "name": "Verin",
+        "firstName": "Renaud",
+        "sex": "Man",
+        "birthDate": "1997-01-01",
+        "mail": "M.Verin@gmail.com",
+        "password": "$2y$10$5RQZ913SzO.bGHGkekaTbOSn.nRQ.G5XOEL.xbO5HBC.ZxV6R9XIe",
+        "fullAddress": {
+            "address": "1013 Rue des Tulipes",
+            "postalCode": "95200",
+            "city": "Sarcelles"
+        },
+        "phoneNumber": "0607070707",
+        "job": "Enseignant",
+        "panier": [],
+        "purchaseHistory": []
+    }
+]

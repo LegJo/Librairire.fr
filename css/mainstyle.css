@@ -1,0 +1,374 @@
+/* Feuille de style général du site  */
+
+body{
+    --BG_1 : #26040b;
+    --BG_2 : #fbe0be;
+    --BG_3 : #fff0de;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--BG_1);
+    overflow-x: auto;
+    margin: 0px;
+    padding:0px;
+}
+
+.but_close{ /* croix de fermeture des popup par exemple*/
+    width: 20px;
+    height: 20px;    
+    transition: 0.3s;
+}
+
+.but_close:hover{
+    transform: scale(1.1);
+}
+   
+
+.pointer{
+    cursor: pointer;
+}
+
+.logo_L{ /* Logo Librairire */ 
+    transition: 0.5s;
+}
+
+.logo_L:hover{
+    filter: drop-shadow(0 0 5px var(--BG_2));
+}
+
+/* Header */ 
+header{
+    position:fixed;
+    display: flex;
+    z-index: 10;
+    width: 100%;
+    align-items: stretch;
+    background-color: var(--BG_1);
+}
+
+.header_child:nth-child(1){
+    flex-basis: 15%;
+    padding-left: 2px;
+}
+.header_child:nth-child(2){ 
+    flex-basis: 65%; 
+    text-align: center;
+}
+.header_child:nth-child(3){
+    flex-basis: 10%;
+    text-align: center;
+}
+.header_child:nth-child(4){
+    flex-basis: 15%;
+    text-align: center;
+}
+
+/* style des childs du header */
+
+.menu_h img{
+    transition: 0.3s;
+}
+
+.menu_h img:hover{
+    filter:brightness(65%);
+}
+
+.menu_h p
+{
+    text-align: center;
+    color: var(--BG_2);
+    font-size: medium;
+}
+
+#header_title{
+    height: 80px;
+    width: 400px;
+}
+
+#logo_h{
+    width: 90px;
+    height: 90px;
+    margin-left: 17px;
+}
+
+/* PopUp Panier && Connexion */
+.popup_h{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    width: 400px;
+    height: 400px;;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: solid 2px var(--BG_1);
+    border-radius: 3px;
+}
+
+.popup_content{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+}
+
+.popup_content::-webkit-scrollbar{
+    width: 7px;
+}
+
+.popup_content::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    border: solid 1px rgb(47, 47, 47);
+}
+
+#popup_panier{
+    top: calc(100% - 15px);
+    right: calc(7%);
+}
+
+#popup_connect{
+    top: calc(100% - 15px);
+    right: calc(14%);
+}
+
+#logoPPP{
+    width: calc(70px*1.5);
+    height: calc(55px*1.5);
+    filter: brightness(30%);
+}
+
+#logoPPC{
+    width: calc(45px*1.5);
+    height: calc(52px*1.5);
+    filter: brightness(30%);
+}
+
+/*Contenu du popup panier si non vide*/
+
+.product_poppan{
+    display: flex;
+    max-height: fit-content;
+    flex-direction:row;
+    width: 90%;
+    padding: 5px;
+}
+
+.ppp_img{
+    width: auto;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    flex-basis: 20%;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.ppp_img:hover{
+    transform: scale(1.09);
+    filter: drop-shadow(5px 5px 3px var(--BG_1));
+    transition: 0.5s;
+
+}
+
+.popproduct_info{
+   padding-left: 15px;
+}
+
+
+/*boutons link*/
+.but_link{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    width: 266px;
+    height: 32px;
+    min-height: 32px;
+    font-size: medium;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(47, 47, 47);
+    border: solid 2px rgb(47, 47, 47);
+    border-radius: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.but_link:hover{
+    background-color: var(--BG_1);
+    color: var(--BG_2);
+}
+
+/*Nav du header */
+#header_nav {
+    display: flex;
+    justify-content: center;    
+}   
+
+.onglet_nav {
+    width: max-content;
+    margin-right: 20px;
+    padding: 5px 22px 5px 22px;
+    border-radius: 3px;
+    background-color: var(--BG_2);
+    border: solid 0.5px var(--BG_2);
+    font-size: large;
+    color: var(--BG_1);
+    text-decoration: none;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    transition: 0.6s;
+}
+
+.onglet_nav:hover{
+   background-color: var(--BG_1);
+   color: var(--BG_2);
+}
+
+/* Aside */
+aside{ 
+    display: flex; 
+    position: fixed;
+    overflow: clip;
+    border-top: solid 1px var(--BG_2) ;
+    border-bottom: solid 1px var(--BG_2) ;
+    z-index: 2;
+    margin-top: 136px;
+    margin-left: -200px;
+    flex-direction: column; 
+    background-color: var(--BG_1);
+    width: 200px;
+    height: 900px; 
+}
+
+aside::-webkit-scrollbar{
+    width: 7px;
+}
+
+aside::-webkit-scrollbar-thumb{
+    background-color: var(--BG_2);
+    border-radius: 5px;
+    border: solid 1px var(--BG_1);
+}
+
+#cat_list{ /*lien categories dans le aside*/
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    
+}
+
+.cat_link{
+    height: 30px;
+    padding-left: 6px;
+    padding-top: 10px;
+    border-radius: 3px;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.cat_name{
+    height: max-content;
+    padding-left: 6px;
+    color: var(--BG_2);
+    font-size: large;
+    transition: 0.6s;
+}
+
+.cat_icon{
+    width: 24px;
+    height: 24px;
+}
+
+
+.cat_link:hover{
+    background-color: var(--BG_2);
+}
+
+.cat_link:hover .cat_name{
+    color: var(--BG_1);
+}
+
+
+#align_main_aside{
+    display: flex;
+}
+
+#buttonAA{ /*bouton categorie pour ouvrir le aside*/
+    width: max-content;
+    height: 32px;
+    color: var(--BG_2);
+    padding: 3px 15px 3px 15px;
+    background-color: var(--BG_1);
+    border: solid 2px var(--BG_1);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    transition: 0.6s;
+}
+
+#buttonAA::before{
+    content: url(../img/menuico.png);
+}
+
+#buttonAA:hover{
+    color: var(--BG_1);
+    background-color: var(--BG_2);
+}
+
+
+
+/* Main */
+main{
+    margin-top: 136px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    min-height: 900px; 
+    height: max-content;
+    flex-basis: 100%;
+    background-color: var(--BG_2);
+}
+
+
+#main_content{
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-right: 0px;
+}
+
+
+/* Footer */
+footer{
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--BG_2);
+    background-color: var(--BG_1);
+    width: 100%;
+}
+
+.footer_child:nth-child(1)
+{
+    padding-top: 5px;
+}
+
+footer a{
+    color: var(--BG_2);
+}
+
+#logo_footer{
+    width: 90px;
+    height: 90px;
+}
+
+#popproduct1{
+    align-self: auto;
+}

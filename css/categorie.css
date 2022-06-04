@@ -1,0 +1,78 @@
+@import url("./mainstyle.css");
+#products_list {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+
+.cat_products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+   justify-content: center;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: inherit;
+    margin-bottom: 5px;
+    width: 500px;
+    min-width: max-content;
+    height: max-content;
+    min-height: 32px;
+    color: rgb(47, 47, 47);
+}
+
+/*Box Produits*/
+
+.boxproduit {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.infos_boxproduit {
+    width: 250px;
+    height: 340px;
+    border: 1px solid rgb(47, 47, 47);
+    padding: 25px 15px 15px 15px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--BG_3);
+    margin-bottom: 10px;
+    color: var(--BG_1);
+    margin-left: 15px;
+}
+
+.infos_boxproduit a {
+    color: var(--BG_1);
+}
+
+.img_boxproduit {
+    width: auto;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.img_boxproduit:hover {
+    transform: scale(1.13);
+    filter: drop-shadow(10px 10px 5px var(--BG_1));
+    transition: 0.5s;
+}
+
+.retour {
+    width: 170px;
+    background-color: var(--BG_3);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

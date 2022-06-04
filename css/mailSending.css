@@ -1,0 +1,69 @@
+@import url("./mainstyle.css");
+
+
+#main_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#form-mailSending{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    background-color: var(--BG_3);
+    border: 1px solid rgb(47, 47, 47);
+    border-radius: 2px;
+    padding: 10px 30px 10px 30px;
+}
+
+.input_row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.input_label{
+    display: flex;
+    flex-direction: column;
+}
+
+#divRecipientChoice{
+    display: flex;
+    flex-direction: column;
+}
+
+#display_selected_produits{
+    max-width: 480px;
+}
+
+#divSubmitMail{
+    display: flex;
+    justify-content: center;
+}
+
+#display_demo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-wrap: break-word;
+    background-color: var(--BG_3);
+    padding: 0 10px;
+    width: 650px;
+}
+
+/*style de la page recap mail*/
+
+#div_recapMail{
+    min-width: 800px;
+    max-width: 50%;
+    height: max-content;
+    background-color: var(--BG_3);
+    border-radius: 2px;
+    padding: 10px 30px 10px 30px;
+}
+
+#div_recapMail>*:nth-child(1){
+    display: flex;
+    justify-content: center;
+}
